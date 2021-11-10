@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color:#2CB3F3;
+    width: 50vw;
+
+}
+.title{
+    position:relative;
+    left: 10vw;
+    font-size: 5vh;
+}
+.subtext{
+    position: relative;
+    left: 2vw;
+    font-size: 3vh;
+}
+header{
+    position: relative;
+    top:10vh;
+    left: 35vw;
+    text-transform: capitalize;
+}
+.face{
+    width: 40vw;
+    height: 50vh;
+    background-color:#FFE1C9;
+    position: relative;
+    top:10vh;
+    left:5vw;
+    border-radius: 50%;
+}
+.eye-left{
+    width: 4vw;
+    height: 6vh;
+    position: relative;
+    background-color: black;
+    top: 9vh;
+    left: 10vw;
+    border-radius: 50%;
+}
+.eye-right{
+    width: 4vw;
+    height: 6vh;
+    position: relative;
+    background-color: black;
+    top: 3vh;
+    left: 26vw;
+    border-radius: 50%;
+}
+.info{
+    height: 5vh;
+    width: 20vw;
+    border:1px solid black;
+}
+.info-two{
+    height: 5vh;
+    width: 20vw;
+    border:1px solid black;
+}
+form{
+    position: absolute;
+    top:30vh;
+    left:10vw;
+}
+
+main{
+    width: 50vw;
+    height: 69vh;
+    background-color: white;
+    position:relative;
+    top: 15vh;
+    left: 25vw;
+    border-radius:100px 100px 0px 0px; 
+}
+button{
+    height: 5vh;
+    width: 10vw;
+    background: #55A603;
+    color:#B2F272;
+    position: absolute;
+    bottom:-5vh;
+    left: 44vw;
+    font-size: 2vh;
+    text-transform: uppercase;
+    border-radius: 5%;
+    box-shadow:1px 2px 3px black;
+}
+footer{
+    height: 30vh;
+}
+
